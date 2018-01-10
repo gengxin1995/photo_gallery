@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript图片库</title>
+    <script type="text/javascript" src="js/showPic1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="images/Happy.jpg" title="Happy" onclick="showPic(this); return false;">Happy</a>
+        </li>
+        <li>
+            <a href="images/Mavis.jpeg" title="Mavis" onclick="showPic(this); return false;">Mavis</a>
+        </li>
+        <li>
+            <a href="images/Luffy.jpeg" title="Luffy" onclick="showPic(this); return false;">Luffy</a>
+        </li>
+        <li>
+            <a href="images/Chopper.png" title="Chopper" onclick="showPic(this); return false;">Chopper</a>
+        </li>
+    </ul>
+    <img src="images/placeholder.jpg" id="placeholder" alt="my image gallery"/>
+    <p id="description">Choose an image.</p>
+</body>
+</html>

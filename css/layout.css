@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+#imagegallery{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#imagegallery li{
+    float: left;
+    padding-right: 20px;
+}
+#imagegallery li a{
+    text-decoration: none;
+    color: #e24e4e;
+}
+#imagegallery li a img {
+    border: 0;
+    height: 100px;
+}
+#imagegallery:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#placeholder{
+    display: block;
+}
+#slideshow {
+    width: 133px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+#preview {
+    position: absolute;
+}
